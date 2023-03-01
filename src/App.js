@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import {BasicTable }from "./components/BasicTable";
+import { SortingTable } from "./components/SortingTable";
 
 function App() {
   return (
     <div>
       <h1>Fdgdfgg</h1>
-      <BasicTable />
+      <SortingTable />
     </div>
   );
 }
