@@ -33,7 +33,7 @@ export const PaginationTable = () => {
   )
 
   const { pageIndex, pageSize } = state
-
+console.log(pageCount)
   return (
     <>
       <table {...getTableProps()}>
